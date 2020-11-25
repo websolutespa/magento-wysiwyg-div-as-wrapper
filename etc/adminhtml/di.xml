@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © Websolute spa. All rights reserved.
+  ~ See COPYING.txt for license details.
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\PageBuilder\Model\Wysiwyg\DefaultConfigProvider">
+        <arguments>
+            <argument name="additionalSettings" xsi:type="array">
+                <item name="forced_root_block" xsi:type="string">div</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

@@ -1,0 +1,20 @@
+{
+    "name": "websolute/wysiwyg-div-as-wrapper",
+    "description": "This module replace the WYSIWYG wrapper <p> with a <div>",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-page-builder": "1.2.*"
+    },
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Websolute\\WysiwygDivAsWrapper\\": ""
+        }
+    }
+}
