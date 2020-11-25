@@ -1,5 +1,5 @@
 {
-    "name": "websolute/wysiwyg-div-as-wrapper",
+    "name": "websolutespa/magento-wysiwyg-div-as-wrapper",
     "description": "This module replace the WYSIWYG wrapper <p> with a <div>",
     "type": "magento2-module",
     "require": {
